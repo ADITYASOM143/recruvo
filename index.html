@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECRUVO | Next-Gen Talent Acquisition & Career Acceleration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        corporate: {
+                            900: '#0B0F19', 
+                            800: '#151B2C', 
+                            700: '#222B45', 
+                            accent: '#D4AF37', 
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-corporate-900 text-slate-100 font-sans antialiased">
+
+    <header class="border-b border-slate-800 bg-corporate-900/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="text-2xl font-black tracking-widest text-white">RECR<span class="text-corporate-accent">UVO</span></span>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+                <a href="#solutions" class="hover:text-white transition">Enterprise Solutions</a>
+                <a href="#accelerator" class="hover:text-white transition">Career Accelerator</a>
+                <a href="#talent-pool" class="hover:text-white transition">Talent Pool</a>
+                <a href="#insights" class="hover:text-white transition">Insights</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <button class="text-sm font-medium text-slate-300 hover:text-white transition">Client Login</button>
+                <button class="bg-white text-corporate-900 px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-corporate-accent hover:text-white transition-all duration-300 shadow-lg shadow-white/5">Request Talent</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="relative min-h-[85vh] flex flex-col justify-center max-w-7xl mx-auto px-6 py-12">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(212,175,55,0.08),transparent_45%)]"></div>
+            
+            <div class="max-w-4xl mx-auto text-center mb-16 relative z-10">
+                <span class="text-xs font-bold tracking-[0.2em] text-corporate-accent uppercase bg-corporate-accent/10 px-4 py-1.5 rounded-full border border-corporate-accent/20">The Recruitment Ecosystem of 2026</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight mt-6 leading-tight">
+                    Architecting the Future of <br class="hidden md:inline"/>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-slate-400">Elite Workforces.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-400 mt-6 max-w-2xl mx-auto font-light">
+                    An elite HR consultancy bridging the divide between high-growth enterprises and future-proof, precision-trained professionals.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto w-full relative z-10">
+                <div class="bg-corporate-800/50 border border-slate-800 p-8 rounded-3xl hover:border-corporate-accent/40 transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-corporate-accent/10 rounded-2xl flex items-center justify-center text-corporate-accent mb-6 group-hover:scale-110 transition-transform">
+                            <i data-lucide="building-2"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3">For Corporate Clients</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed font-light">
+                            Deploy rigorously vetted, interview-engineered professionals. Scale your divisions with certified talent tailored to your technical verticals.
+                        </p>
+                    </div>
+                    <button class="mt-8 w-full border border-slate-700 hover:border-white text-white py-3 px-4 rounded-xl text-sm font-semibold transition-all flex items-center justify-center gap-2">
+                        Partner with Recruvo <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </button>
+                </div>
+
+                <div class="bg-corporate-800/50 border border-slate-800 p-8 rounded-3xl hover:border-white/20 transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3">For Talented Professionals</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed font-light">
+                            Accelerate your career track. Access bespoke placement bootcamps, AI-driven mock validation panels, and direct entry into top-tier pipelines.
+                        </p>
+                    </div>
+                    <button class="mt-8 w-full bg-white text-corporate-900 hover:bg-corporate-accent hover:text-white py-3 px-4 rounded-xl text-sm font-semibold transition-all flex items-center justify-center gap-2">
+                        Apply to Accelerator <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="talent-pool" class="py-24 border-t border-slate-800/60 bg-gradient-to-b from-corporate-900 to-corporate-800/30">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                    <div>
+                        <h2 class="text-3xl font-bold text-white tracking-tight">Active Pipeline Preview</h2>
+                        <p class="text-slate-400 font-light mt-2">Live look at deployment-ready, pre-vetted specialists in our ecosystem.</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono mt-4 md:mt-0 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Network Capacity Optimized
+                    </span>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-corporate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded">ID: #RE-409</span>
+                            <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded font-medium">100% Match Ready</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Advanced Data & AI Analyst</h4>
+                        <p class="text-xs text-corporate-accent font-medium mb-4">FinTech & System Architecture Focus</p>
+                        <div class="space-y-2 border-t border-slate-800/80 pt-4">
+                            <div class="flex justify-between text-xs"><span class="text-slate-500">Core Capabilities:</span><span class="text-slate-300 font-medium">Python, PowerBI, Predictive Models</span></div>
+                            <div class="flex justify-between text-xs"><span class="text-slate-500">Vetting Cleared:</span><span class="text-slate-300 font-medium">McKinsey Forward Alumnus / Mock Panel Verified</span></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-corporate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded">ID: #RE-512</span>
+                            <span class="text-xs text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded font-medium">100% Match Ready</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Corporate Infrastructure Lead</h4>
+                        <p class="text-xs text-corporate-accent font-medium mb-4">Operations & Business Management</p>
+                        <div class="space-y-2 border-t border-slate-800/80 pt-4">
+                            <div class="flex justify-between text-xs"><span class="text-slate-500">Core Capabilities:</span><span class="text-slate-300 font-medium">Agile Frameworks, Risk Analytics</span></div>
+                            <div class="flex justify-between text-xs"><span class="text-slate-500">Vetting Cleared:</span><span class="text-slate-300 font-medium">Case Interview Mastery 94% Score</span></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-corporate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded">ID: #RE-311</span>
+                            <span class="text-xs text-corporate-accent bg-corporate-accent/10 px-2.5 py-1 rounded font-medium">In Final Interview Stage</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Geological & Environmental Consultant</h4>
+                        <p class="text-xs text-corporate-accent font-medium mb-4">Marine Geology & Blue Economy Vertical</p>
+                        <div class="space-y-2 border-t border-slate-800/80 pt-4">
+                            <div class="flex justify-between text-xs"><span class="text-slate-500">Core Capabilities:</span><span class="text-slate-300 font-medium">GIS Mapping, Resource Audits</span></div>
+                            <div class="flex justify-between text-xs"><span class="text-slate-500">Vetting Cleared:</span><span class="text-slate-300 font-medium">National Grand Seminar Presenter</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-800/80 py-12 text-center text-xs text-slate-500">
+        <p>© 2026 RECRUVO Global Systems. All Rights Reserved. Prototype Build Alpha v1.0</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
